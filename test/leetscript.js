@@ -41,4 +41,18 @@ describe('leetscript tests with simple option', () => {
       assert.equal(false, l.encode(item))
     })
   })
+
+  it('should replace uppercase letters as expected', () => {
+    let testMap = {
+      "Leet": "1337",
+      "Lorem": "1023m",
+      "Key": "k3y",
+      "ZeRo": "2320",
+    }
+    let strings = Object.keys(testMap)
+
+    strings.forEach( (word) => {
+      assert.equal(testMap[word], l.encode(word))
+    })
+  })
 })
