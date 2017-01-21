@@ -1,0 +1,30 @@
+{
+  "name": "leetscript",
+  "version": "1.0.0",
+  "description": "Convert text to 1337.",
+  "main": "./lib/leetscript.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevingimbel/leetscript.git"
+  },
+  "keywords": [
+    "text",
+    "converter",
+    "leetscript"
+  ],
+  "author": "Kevin Gimbel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevingimbel/leetscript/issues"
+  },
+  "homepage": "https://github.com/kevingimbel/leetscript#readme",
+  "dependencies": {
+    "yargs": "^6.6.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
