@@ -1,6 +1,6 @@
 {
   "name": "leetscript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert text to 1337.",
   "main": "./lib/leetscript.js",
   "scripts": {
